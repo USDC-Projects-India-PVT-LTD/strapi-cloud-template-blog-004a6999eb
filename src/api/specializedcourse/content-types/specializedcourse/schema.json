@@ -15,6 +15,9 @@
     "courseName": {
       "type": "string"
     },
+    "courseTitle": {
+      "type": "string"
+    },
     "slug": {
       "type": "string"
     },
