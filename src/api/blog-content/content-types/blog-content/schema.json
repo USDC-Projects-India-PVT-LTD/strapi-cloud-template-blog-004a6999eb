@@ -20,6 +20,13 @@
       "target": "api::blog-category.blog-category",
       "inversedBy": "blog_contents"
     },
+    "tldr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -27,6 +34,7 @@
         "images"
       ]
     },
+
     "description": {
       "type": "text"
     },
